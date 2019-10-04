@@ -5,7 +5,10 @@ namespace Lab01
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("{0:#.###}.", 1234.56789);
+            string str;
+            Console.Write("Enter some characters.");
+            str = Console.Read();
+            Console.WriteLine("You entered: " + str);
         }
     }
 }
